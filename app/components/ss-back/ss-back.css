@@ -1,0 +1,68 @@
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 50%;
+  
+  position: fixed;
+  left: 30px;
+  top: 30px;
+  width: 60px;
+  height: 60px;
+  z-index: 999;
+
+  pointer-events: auto;
+  visibility: visible;
+  opacity: 1;
+
+  transition:
+    visibility 0s linear 0s,
+    opacity var(--ss-page-transition-duration) ease;
+
+  filter: drop-shadow(1px 1px 5px rgb(0 0 0 / .3));
+}
+
+:host(.hide) {
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+
+  transition:
+    opacity var(--ss-page-transition-duration) ease,
+    visibility 0s linear var(--ss-page-transition-duration);
+}
+
+.svg {
+  display: block;
+  width: 80%;
+  height: 80%;
+
+  transform: rotateX(0deg) translateX(0px);
+
+  animation-duration: 10s;
+  animation-name: ss-back-rotate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.svg path {
+  fill: var(--ss-text-color);
+  stroke: var(--ss-text-color);
+  stroke-width: 1;
+}
+
+@keyframes ss-back-rotate {
+  0% {
+    transform: rotateX(0deg) translateX(0px);
+  }
+  5% {
+    transform: rotateX(360deg) translateX(-10px);
+  }
+  10% {
+    transform: rotateX(360deg) translateX(0px);
+  }
+  100% {
+    transform: rotateX(360deg) translateX(0px);
+  }
+}

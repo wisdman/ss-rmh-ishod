@@ -1,0 +1,36 @@
+:host {
+  --header-height: 364px;
+  
+  background-color: var(--ss-main-color);
+}
+
+.page-wrapper {
+  position: relative;
+
+  background-image: var(--page-top, none);
+  background-size: 100% var(--header-height);
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.main-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.gallery-link {
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  left: calc(var(--x) * 1px);
+  top: calc(var(--y) * 1px);
+  width: calc(var(--w) * 1px);
+  height: calc(var(--h) * 1px);
+  /*border: 1px solid red;*/
+}
+

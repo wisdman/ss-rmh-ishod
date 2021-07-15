@@ -1,0 +1,408 @@
+{
+  "id": "ss-2",
+  "title": "Галлиполийское сидение",
+  "type": "main",
+  "image": "ss-2/main.webp",
+  "backMinLevel": 1,
+  "children": [{
+    "id": "page-1",
+    "cords": [512, 0, 1408, 182],
+    "title": "ПРИБЫТИЕ ВОЙСК",
+    "type": "landing",
+    "top": "ss-2/page-1-top.webp",
+    "page":  "ss-2/page-1.webp",
+    "images": [{
+      "src": "ss-2/image-1-1.jpg",
+      "cords": [285, 591, 495, 271],
+      "alt": ""
+    },{
+      "src": "ss-2/image-1-2.jpg",
+      "cords": [133, 1369, 568, 374],
+      "alt": ""
+    },{
+      "src": "ss-2/image-1-3.jpg",
+      "cords": [716, 1369, 218, 374],
+      "alt": ""
+    },{
+      "src": "ss-2/image-1-4.jpg",
+      "cords": [949, 1369, 286, 176],
+      "alt": ""
+    },{
+      "src": "ss-2/image-1-5.jpg",
+      "cords": [950, 1554, 285, 189],
+      "alt": ""
+    },{
+      "src": "ss-2/image-1-6.jpg",
+      "cords": [1250, 1369, 536, 372],
+      "alt": ""
+    },{
+      "src": "ss-2/image-1-7.jpg",
+      "cords": [285, 1856, 495, 262],
+      "alt": ""
+    }]
+  },{
+    "id": "page-2",
+    "cords": [512, 184, 1408, 133],
+    "title": "ГАЛЛИПОЛИЙСКИЙ БЫТ",
+    "type": "landing",
+    "top": "ss-2/page-2-top.webp",
+    "page":  "ss-2/page-2.webp",
+    "images": [{
+      "src": "ss-2/image-2-1.jpg",
+      "cords": [135, 522, 649, 303],
+      "alt": ""
+    },{
+      "src": "ss-2/image-2-2.jpg",
+      "cords": [1408, 1134, 390, 243],
+      "alt": ""
+    },{
+      "src": "ss-2/image-2-3.jpg",
+      "cords": [133, 2159, 476, 319],
+      "alt": ""
+    },{
+      "src": "ss-2/image-2-4.jpg",
+      "cords": [640, 2159, 464, 319],
+      "alt": ""
+    },{
+      "src": "ss-2/image-2-5.jpg",
+      "cords": [270, 2513, 834, 509],
+      "alt": ""
+    },{
+      "src": "ss-2/image-2-6.jpg",
+      "cords": [360, 3567, 424, 274],
+      "alt": ""
+    },{
+      "src": "ss-2/image-2-7.jpg",
+      "cords": [133, 4141, 517, 338],
+      "alt": ""
+    },{
+      "src": "ss-2/image-2-8.jpg",
+      "cords": [133, 4499, 517, 335],
+      "alt": ""
+    },{
+      "src": "ss-2/image-2-9.jpg",
+      "cords": [663, 4141, 1135, 693],
+      "alt": ""
+    },{
+      "src": "ss-2/image-2-10.jpg",
+      "cords": [133, 5219, 337, 222],
+      "alt": ""
+    },{
+      "src": "ss-2/image-2-11.jpg",
+      "cords": [480, 5219, 304, 222],
+      "alt": ""
+    },{
+      "src": "ss-2/image-2-12.jpg",
+      "cords": [133, 5468, 712, 501],
+      "alt": ""
+    },{
+      "src": "ss-2/image-2-13.jpg",
+      "cords": [133, 6542, 645, 406],
+      "alt": ""
+    },{
+      "src": "ss-2/image-2-14.jpg",
+      "cords": [789, 6542, 328, 203],
+      "alt": ""
+    },{
+      "src": "ss-2/image-2-15.jpg",
+      "cords": [789, 6749, 328, 200],
+      "alt": ""
+    },{
+      "src": "ss-2/image-2-16.jpg",
+      "cords": [1125, 6542, 657, 406],
+      "alt": ""
+    },{
+      "src": "ss-2/image-2-17.jpg",
+      "cords": [285, 7213, 500, 700],
+      "alt": ""
+    },{
+      "src": "ss-2/image-2-18.jpg",
+      "cords": [338, 8252, 455, 296],
+      "alt": ""
+    },{
+      "src": "ss-2/image-2-19.jpg",
+      "cords": [338, 8558, 455, 278],
+      "alt": ""
+    },{
+      "src": "ss-2/image-2-20.jpg",
+      "cords": [803, 8250, 885, 585],
+      "alt": ""
+    },{
+      "src": "ss-2/image-2-21.jpg",
+      "cords": [133, 8852, 651, 417],
+      "alt": ""
+    }]
+  },{
+    "id": "page-3",
+    "cords": [512, 319, 1408, 131],
+    "title": "ОБРАЗОВАНИЕ, ВОСПИТАНИЕ&nbsp;И&nbsp;КУЛЬТУРА",
+    "type": "landing",
+    "top": "ss-2/page-3-top.webp",
+    "page":  "ss-2/page-3.webp",
+    "images": [{
+      "src": "ss-2/image-3-1.jpg",
+      "cords": [285, 642, 497, 217],
+      "alt": ""
+    },{
+      "src": "ss-2/image-3-2.jpg",
+      "cords": [133, 887, 1652, 713],
+      "alt": ""
+    },{
+      "src": "ss-2/image-3-3.jpg",
+      "cords": [285, 2205, 497, 316],
+      "alt": ""
+    },{
+      "src": "ss-2/image-3-4.jpg",
+      "cords": [285, 2531, 497, 316],
+      "alt": ""
+    },{
+      "src": "ss-2/image-3-5.jpg",
+      "cords": [133, 3019, 648, 418],
+      "alt": ""
+    },{
+      "src": "ss-2/image-3-6.jpg",
+      "cords": [283, 3452, 498, 361],
+      "alt": ""
+    },{
+      "src": "ss-2/image-3-7.jpg",
+      "cords": [133, 3990, 806, 527],
+      "alt": ""
+    },{
+      "src": "ss-2/image-3-8.jpg",
+      "cords": [1423, 5012, 375, 241],
+      "alt": ""
+    },{
+      "src": "ss-2/image-3-9.jpg",
+      "cords": [596, 5800, 351, 291],
+      "alt": ""
+    },{
+      "src": "ss-2/image-3-10.jpg",
+      "cords": [273, 6117, 509, 335],
+      "alt": ""
+    },{
+      "src": "ss-2/image-3-11.jpg",
+      "cords": [134, 6596, 875, 581],
+      "alt": ""
+    },{
+      "src": "ss-2/image-3-12.jpg",
+      "cords": [285, 7948, 497, 329],
+      "alt": ""
+    },{
+      "src": "ss-2/image-3-13.jpg",
+      "cords": [273, 8925, 740, 486],
+      "alt": ""
+    },{
+      "src": "ss-2/image-3-14.jpg",
+      "cords": [273, 9434, 454, 651],
+      "alt": ""
+    },{
+      "src": "ss-2/image-3-15.jpg",
+      "cords": [739, 9434, 444, 394],
+      "alt": ""
+    },{
+      "src": "ss-2/image-3-16.jpg",
+      "cords": [1195, 9434, 591, 394],
+      "alt": ""
+    },{
+      "src": "ss-2/image-3-17.jpg",
+      "cords": [285, 10609, 497, 330],
+      "alt": ""
+    },{
+      "src": "ss-2/image-3-18.jpg",
+      "cords": [134, 11173, 878, 568],
+      "alt": ""
+    },{
+      "src": "ss-2/image-3-19.jpg",
+      "cords": [285, 11774, 497, 350],
+      "alt": ""
+    },{
+      "src": "ss-2/image-3-20.jpg",
+      "cords": [133, 12994, 820, 516],
+      "alt": ""
+    },{
+      "src": "ss-2/image-3-21.jpg",
+      "cords": [285, 13562, 497, 327],
+      "alt": ""
+    },{
+      "src": "ss-2/image-3-22.jpg",
+      "cords": [133, 13904, 609, 381],
+      "alt": ""
+    },{
+      "src": "ss-2/image-3-23.jpg",
+      "cords": [757, 13904, 1028, 380],
+      "alt": ""
+    }]
+  },{
+    "id": "page-4",
+    "cords": [512, 450, 1408, 135],
+    "title": "АРМИЯ И&nbsp;ГАЛЛИПОЛИЙЦЫ",
+    "type": "landing",
+    "top": "ss-2/page-4-top.webp",
+    "page":  "ss-2/page-4.webp",
+    "images": [{
+      "src": "ss-2/image-4-1.jpg",
+      "cords": [133, 600, 638, 993],
+      "alt": ""
+    },{
+      "src": "ss-2/image-4-2.jpg",
+      "cords": [133, 3158, 637, 420],
+      "alt": ""
+    },{
+      "src": "ss-2/image-4-3.jpg",
+      "cords": [1378, 3639, 407, 259],
+      "alt": ""
+    },{
+      "src": "ss-2/image-4-4.jpg",
+      "cords": [133, 4134, 648, 408],
+      "alt": ""
+    },{
+      "src": "ss-2/image-4-5.jpg",
+      "cords": [285, 4552, 495, 325],
+      "alt": ""
+    },{
+      "src": "ss-2/image-4-6.jpg",
+      "cords": [757, 5072, 534, 327],
+      "alt": ""
+    },{
+      "src": "ss-2/image-4-7.jpg",
+      "cords": [554, 5423, 216, 274],
+      "alt": ""
+    }]
+  },{
+    "id": "page-5",
+    "cords": [512, 587, 1408, 133],
+    "title": "ЦЕРКОВНАЯ&nbsp;ЖИЗНЬ И&nbsp;ПАМЯТЬ&nbsp;ОБ&nbsp;УСОПШИХ",
+    "type": "landing",
+    "top": "ss-2/page-5-top.webp",
+    "page":  "ss-2/page-5.webp",
+    "images": [{
+      "src": "ss-2/image-5-1.jpg",
+      "cords": [133, 1047, 645, 421],
+      "alt": ""
+    },{
+      "src": "ss-2/image-5-2.jpg",
+      "cords": [133, 1916, 566, 350],
+      "alt": ""
+    },{
+      "src": "ss-2/image-5-3.jpg",
+      "cords": [711, 1916, 556, 349],
+      "alt": ""
+    },{
+      "src": "ss-2/image-5-4.jpg",
+      "cords": [133, 2662, 637, 384],
+      "alt": ""
+    },{
+      "src": "ss-2/image-5-5.jpg",
+      "cords": [1376, 2981, 421, 287],
+      "alt": ""
+    },{
+      "src": "ss-2/image-5-6.jpg",
+      "cords": [133, 3294, 581, 343],
+      "alt": ""
+    },{
+      "src": "ss-2/image-5-7.jpg",
+      "cords": [273, 3652, 442, 293],
+      "alt": ""
+    },{
+      "src": "ss-2/image-5-8.jpg",
+      "cords": [727, 3294, 1071, 651],
+      "alt": ""
+    },{
+      "src": "ss-2/image-5-9.jpg",
+      "cords": [285, 4405, 559, 322],
+      "alt": ""
+    },{
+      "src": "ss-2/image-5-10.jpg",
+      "cords": [133, 4757, 796, 520],
+      "alt": ""
+    },{
+      "src": "ss-2/image-5-11.jpg",
+      "cords": [285, 5332, 494, 257],
+      "alt": ""
+    },{
+      "src": "ss-2/image-5-12.jpg",
+      "cords": [133, 5695, 832, 546],
+      "alt": ""
+    },{
+      "src": "ss-2/image-5-13.jpg",
+      "cords": [977, 5695, 399, 260],
+      "alt": ""
+    },{
+      "src": "ss-2/image-5-14.jpg",
+      "cords": [1390, 5695, 395, 260],
+      "alt": ""
+    },{
+      "src": "ss-2/image-5-15.jpg",
+      "cords": [977, 5965, 399, 276],
+      "alt": ""
+    },{
+      "src": "ss-2/image-5-16.jpg",
+      "cords": [1390, 5965, 395, 277],
+      "alt": ""
+    }]
+  },{
+    "id": "page-6",
+    "cords": [512, 722, 1408, 131],
+    "title": "ДИСЦИПЛИНА&nbsp;– ПРЕВЫШЕ&nbsp;ВСЕГО",
+    "type": "landing",
+    "top": "ss-2/page-6-top.webp",
+    "page":  "ss-2/page-6.webp",
+    "images": [{
+      "src": "ss-2/image-6-1.jpg",
+      "cords": [133, 608, 491, 387],
+      "alt": ""
+    },{
+      "src": "ss-2/image-6-2.jpg",
+      "cords": [637, 608, 619, 387],
+      "alt": ""
+    },{
+      "src": "ss-2/image-6-3.jpg",
+      "cords": [133, 1115, 644, 406],
+      "alt": ""
+    },{
+      "src": "ss-2/image-6-4.jpg",
+      "cords": [133, 2068, 644, 418],
+      "alt": ""
+    },{
+      "src": "ss-2/image-6-5.jpg",
+      "cords": [134, 2606, 630, 277],
+      "alt": ""
+    },{
+      "src": "ss-2/image-6-6.jpg",
+      "cords": [133, 2891, 631, 374],
+      "alt": ""
+    },{
+      "src": "ss-2/image-6-7.jpg",
+      "cords": [773, 2606, 1012, 661],
+      "alt": ""
+    },{
+      "src": "ss-2/image-6-8.jpg",
+      "cords": [285, 3295, 493, 302],
+      "alt": ""
+    },{
+      "src": "ss-2/image-6-9.jpg",
+      "cords": [134, 4060, 880, 496],
+      "alt": ""
+    }]
+  },{
+    "id": "page-7",
+    "cords": [512, 855, 1408, 225],
+    "title": "ПЕРЕЕЗД НА&nbsp;БАЛКАНЫ",
+    "type": "landing",
+    "top": "ss-2/page-7-top.webp",
+    "page":  "ss-2/page-7.webp",
+    "images": [{
+      "src": "ss-2/image-7-1.jpg",
+      "cords": [133, 617, 945, 327],
+      "alt": ""
+    },{
+      "src": "ss-2/image-7-2.jpg",
+      "cords": [285, 965, 500, 330],
+      "alt": ""
+    },{
+      "src": "ss-2/image-7-3.jpg",
+      "cords": [133, 1415, 651, 432],
+      "alt": ""
+    }]
+  }]
+}

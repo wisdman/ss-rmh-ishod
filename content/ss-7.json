@@ -1,0 +1,183 @@
+{
+  "id": "ss-7",
+  "title": "Философский пароход",
+  "type": "main",
+  "image": "ss-7/main.webp",
+  "backMinLevel": 1,
+  "children": [{
+    "id": "page-1",
+    "cords": [512, 0, 1408, 464],
+    "title": "ИСХОД ИНТЕЛЛИГЕНЦИИ",
+    "type": "landing",
+    "top": "ss-7/page-1-top.webp",
+    "page":  "ss-7/page-1.webp",
+    "images": []
+  },{
+    "id": "page-2",
+    "cords": [512, 466, 1408, 614],
+    "title": "Представители интеллигенции",
+    "type": "list",
+    "image": "ss-7/page-2.webp",
+    "children": [{
+      "id": "item-1",
+      "type": "list-item",
+      "title": "Айхенвальд Юлий Исаевич",
+      "subtitle": "Литературный критик, педагог, переводчик, философ",
+      "years": "1872-1928",
+      "templ": "ss-7/item-1.html",
+      "image": "ss-7/image-1.jpg"
+    },{
+      "id": "item-2",
+      "type": "list-item",
+      "title": "Бердяев Николай Александрович",
+      "subtitle": "Русский философ, публицист и общественный деятель",
+      "years": "1874-1948",
+      "templ": "ss-7/item-2.html",
+      "image": "ss-7/image-2.jpg"
+    },{
+      "id": "item-3",
+      "type": "list-item",
+      "title": "Бруцкус Борис Давидович",
+      "subtitle": "Экономист, агроном, публицист. Профессор Петроградской Сельскохозяйственной Академии",
+      "years": "1874-1938",
+      "templ": "ss-7/item-3.html",
+      "image": "ss-7/image-3.jpg"
+    },{
+      "id": "item-4",
+      "type": "list-item",
+      "title": "Булгаков Сергей Николаевич",
+      "subtitle": "Философ и богослов, публицист, экономист и общественный деятель",
+      "years": "1871-1944",
+      "templ": "ss-7/item-4.html",
+      "image": "ss-7/image-4.jpg"
+    },{
+      "id": "item-5",
+      "type": "list-item",
+      "title": "Вышеславцев Борис Петрович",
+      "years": "1887-1954",
+      "subtitle": "Философ",
+      "templ": "ss-7/item-5.html",
+      "image": "ss-7/image-5.jpg"
+    },{
+      "id": "item-6",
+      "type": "list-item",
+      "title": "Ильин Иван Александрович",
+      "subtitle": "Правовед, философ",
+      "years": "1883-1954",
+      "templ": "ss-7/item-6.html",
+      "image": "ss-7/image-6.jpg"
+    },{
+      "id": "item-7",
+      "type": "list-item",
+      "title": "Карсавин Лев Платонович",
+      "subtitle": "Историк-медиевист, философ и богослов",
+      "years": "1882-1952",
+      "templ": "ss-7/item-7.html",
+      "image": "ss-7/image-7.jpg"
+    },{
+      "id": "item-8",
+      "type": "list-item",
+      "title": "Кизеветтер Александр Александрович",
+      "subtitle": "Историк, мыслитель",
+      "years": "1867-1933",
+      "templ": "ss-7/item-8.html",
+      "image": "ss-7/image-8.jpg"
+    },{
+      "id": "item-9",
+      "type": "list-item",
+      "title": "Кускова Екатерина Дмитриевна",
+      "subtitle": "Журналистка, правая социалистка",
+      "years": "1869-1958",
+      "templ": "ss-7/item-9.html",
+      "image": "ss-7/image-9.jpg"
+    },{
+      "id": "item-10",
+      "type": "list-item",
+      "title": "Лапшин Иван Иванович",
+      "subtitle": "Философ, публицист",
+      "years": "1870-1952",
+      "templ": "ss-7/item-10.html",
+      "image": "ss-7/image-10.jpg"
+    },{
+      "id": "item-11",
+      "type": "list-item",
+      "title": "Лосский Николай Онуфриевич",
+      "subtitle": "Философ, представитель интуитивизма и персонализма",
+      "years": "1870-1965",
+      "templ": "ss-7/item-11.html",
+      "image": "ss-7/image-11.jpg"
+    },{
+      "id": "item-12",
+      "type": "list-item",
+      "title": "Мельгунов Сергей Петрович",
+      "subtitle": "Редактор, журналист, историк, политический деятель",
+      "years": "1879-1956",
+      "templ": "ss-7/item-12.html",
+      "image": "ss-7/image-12.jpg"
+    },{
+      "id": "item-13",
+      "type": "list-item",
+      "title": "Новиков Михаил Михайлович",
+      "subtitle": "Зоолог, профессор и ректор Московского университета",
+      "years": "1876-1960",
+      "templ": "ss-7/item-13.html",
+      "image": "ss-7/image-13.jpg"
+    },{
+      "id": "item-14",
+      "type": "list-item",
+      "title": "Осоргин (Ильин) Михаил Андреевич",
+      "subtitle": "Писатель и публицист",
+      "years": "1878-1942",
+      "templ": "ss-7/item-14.html",
+      "image": "ss-7/image-14.jpg"
+    },{
+      "id": "item-15",
+      "type": "list-item",
+      "title": "Пешехонов Алексей Васильевич",
+      "subtitle": "Член ЦК Трудовой народно-социалистической партии, редактор и издатель газеты «Народное слово»",
+      "years": "1867-1933",
+      "templ": "ss-7/item-15.html",
+      "image": "ss-7/image-15.jpg"
+    },{
+      "id": "item-16",
+      "type": "list-item",
+      "title": "Прокопович Сергей Николаевич",
+      "subtitle": "Экономист, политический деятель, масон, издатель журнала «Без заглавия»",
+      "years": "1871-1955",
+      "templ": "ss-7/item-16.html",
+      "image": "ss-7/image-16.jpg"
+    },{
+      "id": "item-17",
+      "type": "list-item",
+      "title": "Сорокин Питирим Александрович",
+      "subtitle": "Философ, социолог",
+      "years": "1889-1968",
+      "templ": "ss-7/item-17.html",
+      "image": "ss-7/image-17.jpg"
+    },{
+      "id": "item-18",
+      "type": "list-item",
+      "title": "Степун Федор Августович",
+      "subtitle": "Публицист и философ",
+      "years": "1884-1965",
+      "templ": "ss-7/item-18.html",
+      "image": "ss-7/image-18.jpg"
+    },{
+      "id": "item-19",
+      "type": "list-item",
+      "title": "Стратонов Всеволод Викторович",
+      "subtitle": "Астрофизик, профессор Московского Университета",
+      "years": "1870-1938",
+      "templ": "ss-7/item-19.html",
+      "image": "ss-7/image-19.jpg"
+    },{
+      "id": "item-20",
+      "type": "list-item",
+      "title": "Франк Семен Людвигович",
+      "subtitle": "Философ",
+      "years": "1877-1950",
+      "templ": "ss-7/item-20.html",
+      "image": "ss-7/image-20.jpg"
+    }]
+  }]
+}

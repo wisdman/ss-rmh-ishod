@@ -1,0 +1,125 @@
+:host {
+  position: relative;
+  box-sizing: border-box;
+
+  display: grid;
+  grid-template-columns: 800px min-content 1fr;
+  grid-template-rows: min-content 32px 120px 1fr;
+  justify-content: start;
+  align-content: start;
+
+  overflow-y: clip;
+
+  padding: 60px 0;
+
+  color: var(--ss-black-color);
+}
+
+.gray {
+  position: relative;
+  grid-area: 1 / 2 / -1 / -1;
+  background-color: var(--ss-gray-color);
+}
+
+.gray::before,
+.gray::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 900px;
+  height: 50px;
+  right: 0;
+  z-index: 99;
+  background: linear-gradient(0deg, transparent, var(--ss-gray-color));
+}
+
+.gray::before {
+  top: 190px;
+}
+
+.gray::after {
+  height: 75px;
+  bottom: 0;
+  background: linear-gradient(0deg, var(--ss-gray-color), var(--ss-gray-color) 50%, transparent);
+}
+
+.main-image {
+  position: relative;
+  grid-area: 1 / 1 / -1 / span 1;
+  align-self: center;
+  justify-self: center;
+}
+
+.title {
+  position: relative;
+  grid-area: 1 / 2 / span 1 / span 2;
+  margin: 0;
+  padding: 30px 30px 0 30px;
+
+  font-family: "Playfair Display";
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1;
+
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.title span {
+  text-transform: none;
+  font-weight: normal;
+  font-size: 30px;
+}
+
+.subtitle {
+  position: relative;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1;
+
+  padding: 12px 30px 0 30px;
+
+  grid-area: 2 / 2 / span 1 / span 2;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.years {
+  position: relative;
+  padding-left: 30px;
+  grid-area: 4 / 2 / span 1 / span 1;
+  margin: 0;
+  white-space: nowrap;
+
+  font-family: "Open Sans";
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 1;
+}
+
+.years::before { content: "("; }
+.years::after { content: ")"; }
+
+.content {
+  position: relative;
+  margin-top: -20px;
+  grid-area: 4 / 3 / span 1 / span 1;
+  padding: 20px 60px 120px 30px;
+  align-self: stretch;
+  overflow: clip;
+  overflow-y: scroll;
+}
+
+.content p {
+  margin: 0;
+
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1.23;
+}
+
+.content p + p {
+  margin-top: 2ex;
+}

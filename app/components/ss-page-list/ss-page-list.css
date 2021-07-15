@@ -1,0 +1,92 @@
+:host {
+  position: relative;
+
+  background-color: var(--ss-main-color);
+  background-image: var(--page-image, none);
+  background-size: 100% auto;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+
+  display: grid;
+  grid-template-columns: 800px 1fr;
+  grid-template-rows: minmax(100%, max-content);
+  justify-content: stretch;
+  align-content: stretch;
+
+  overflow-y: clip;
+}
+
+.page-wrapper {
+  box-sizing: border-box;
+  grid-area: 1 / span 1 / span 1 / -1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: start;
+
+  overflow: clip;
+  overflow-y: scroll;
+
+  border-left: 2px solid var(--ss-gray-color);
+}
+
+.item-link {
+  box-sizing: border-box;
+  padding-left: 60px;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  height: 135px;
+  flex-shrink: 0;
+
+  font-family: "Playfair Display";
+  font-size: 36px;
+  line-height: 1;
+  font-weight: bold;
+
+  color: var(--ss-text-color);
+  text-decoration: none;
+
+  border-bottom: 2px solid var(--ss-gray-color);
+}
+
+.item-link:first-of-type {
+  border-top: 2px solid var(--ss-gray-color);
+}
+
+.item-link h1,
+.item-link h2 {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.item-link h1 {
+  order: -1;
+  flex-basis: 100%;
+}
+
+.item-link h2 {
+  margin-top: 12px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.item-link h2 + h1 {
+  text-transform: uppercase;
+}
+
+.item-link span {
+  font-size: 30px;
+  margin-left: 0.3em;
+  font-weight: normal;
+   text-transform: none;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "ss-rmh-ishod",
+  "version": "0.1.0",
+  "description": "SmartScreen for exposition Ishod",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wisdman/ss-rmh-ishod.git"
+  },
+  "homepage": "https://github.com/wisdman/ss-rmh-ishod",
+  "bugs": {
+    "url": "https://github.com/wisdman/ss-rmh-ishod/issues"
+  },
+  "author": "wisdman <wisdman@wisdman.io> (https://github.com/wisdman)",
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

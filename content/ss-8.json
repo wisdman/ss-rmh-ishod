@@ -1,0 +1,72 @@
+{
+  "id": "ss-8",
+  "title": "Мы&nbsp;в&nbsp;послании, а&nbsp;не&nbsp;в&nbsp;изгнании",
+  "type": "main",
+  "image": "ss-8/main.webp",
+  "backMinLevel": 1,
+  "children": [{
+    "id": "page-1",
+    "cords": [512, 0, 1408, 464],
+    "title": "ПЕРВЫЕ&nbsp;ШАГИ&nbsp;РУССКОЙ ЦЕРКВИ&nbsp;ЗА&nbsp;РУБЕЖОМ",
+    "type": "landing",
+    "top": "ss-8/page-1-top.webp",
+    "page":  "ss-8/page-1.webp",
+    "images": []
+  },{
+    "id": "page-2",
+    "cords": [512, 466, 1408, 614],
+    "title": "БИОГРАФИИ ВИДНЫХ&nbsp;ДЕЯТЕЛЕЙ&nbsp;РПЦЗ",
+    "type": "list",
+    "image": "ss-8/page-2.webp",
+    "children": [{
+      "id": "item-1",
+      "type": "list-item",
+      "title": "Митрополит Антоний [Храповицкий]",
+      "years": "1863-1936",
+      "templ": "ss-8/item-1.html",
+      "image": "ss-8/image-1.jpg"
+    },{
+      "id": "item-2",
+      "type": "list-item",
+      "title": "Сятитель Серафим Богучарский [Соболев]",
+      "years": "1881-1950",
+      "templ": "ss-8/item-2.html",
+      "image": "ss-8/image-2.jpg"
+    },{
+      "id": "item-3",
+      "type": "list-item",
+      "title": "Епископ Феофан [Быстров]",
+      "years": "1873–1940",
+      "templ": "ss-8/item-3.html",
+      "image": "ss-8/image-3.jpg"
+    },{
+      "id": "item-4",
+      "type": "list-item",
+      "title": "Протопресвитер Георгий [Шавельский]",
+      "years": "1871–1951",
+      "templ": "ss-8/item-4.html",
+      "image": "ss-8/image-4.jpg"
+    },{
+      "id": "item-5",
+      "type": "list-item",
+      "title": "Митрополит Анастасий [Грибановский]",
+      "years": "1873–1965",
+      "templ": "ss-8/item-5.html",
+      "image": "ss-8/image-5.jpg"
+    },{
+      "id": "item-6",
+      "type": "list-item",
+      "title": "Митрополит Евлогий [Георгиевский]",
+      "years": "1868–1946",
+      "templ": "ss-8/item-6.html",
+      "image": "ss-8/image-6.jpg"
+    },{
+      "id": "item-7",
+      "type": "list-item",
+      "title": "Святитель Иоанн Шанхайский [Максимович]",
+      "years": "1896–1966",
+      "templ": "ss-8/item-7.html",
+      "image": "ss-8/image-7.jpg"
+    }]
+  }]
+}
