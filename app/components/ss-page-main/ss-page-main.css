@@ -1,5 +1,6 @@
 :host {
   position: relative;
+  overflow-y: clip;
 
   display: grid;
   grid-template-columns: 100%;
