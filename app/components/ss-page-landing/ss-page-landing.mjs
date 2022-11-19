@@ -36,9 +36,12 @@ export class SSPageLanding extends SSPage {
     }, new SSSlider())
   }
 
-  async init({top, page, images, ...args} = {}) {
+  async init({top, topHeight, page, images, ...args} = {}) {
     await super.init(args)
     this.style.setProperty("--page-top", `url("/content/${top}")`)
+    if (topHeight && Number.isNaN(topHeight) === false) {
+      this.style.setProperty("--header-height", `${topHeight}px`)
+    }
     this.#mainImage.src = `/content/${page}`
     const sliderNode = this.#initGallery(images)
     this.root.appendChild(sliderNode)
